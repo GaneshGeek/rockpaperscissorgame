@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock_Paper_scissor</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+        <div class="title">
+            <h1>Rock_Paper_Scissor Game</h1>
+        </div>
+    </section>
+    <section class="content-container">
+        <div class="content">
+            <img  src="images/fist.png" alt="no_imgae" height="200px" width="200px" onclick="userchoice('rock')">
+            <img  src="images/hand-paper.png" alt="no-image" height="200px" width="200px" onclick="userchoice('paper') ">
+            <img  src="images/scissors.png" alt="no-image" height="200px" width="200px" onclick="userchoice('scissor') ">
+        </div>
+    </section>
+    <section class="gametext">
+        <div class="text">
+            <p><span id="text"></span></p>
+        </div>
+    </section>
+    <section class="game">
+        <div class="gamecount">
+            <p>User Wins:<span id="user_count">0</span></p>
+            <p>Computer Wins:<span id="computer_count">0</span></p>
+        </div>
+        <div class="resetbtn">
+            <button type="button" onclick="reset()">Reset</button>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

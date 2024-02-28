@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#91C8E4;
+}
+.title h1{
+    margin:10px;
+    text-align: center;
+    font-size: 43px;
+}
+.content-container{
+    display:flex;
+    justify-content: center;
+    /* border: 5px solid blue; */
+
+}
+.content{
+    margin: 10px;
+    display: flex;
+    gap:20px;
+    /* border: 5px solid black; */
+}
+.content img{
+    border: 5px solid balck;
+    border-radius: 10px;
+    background-color:#F6F4EB;
+    padding:5px;
+}
+.gametext{
+    display: flex;
+    justify-content: center;
+    font-size: 43px;
+}
+.text{
+    padding:5px;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    gap:10px;
+}
+.gamecount{
+    margin: 10px 0px;
+    display: flex;
+    gap: 20px;
+    font-size: 34px;
+}
+.resetbtn button{
+ font-size: 25px;
+ padding: 10px;
+ background-color: #749BC2;
+ border-radius: 5px;
+}
+
+@media screen and (max-width:560px) {
+
+    .title h1{
+        font-size: 33px;
+    }
+
+    .content img{
+        height:120px;
+        width:120px;
+    }
+    .gametext{
+        font-size: 23px;
+    }
+    .gamecount{
+        font-size:25px ;
+    }
+    .resetbtn button{
+        font-size: 23px;
+    } 
+}
+@media screen and (min-width:561px) and (max-width:720px)
+{
+    .title h1{
+        font-size: 38px;
+    }
+    .content img{
+        height:150px;
+        width:150px;
+    }
+    .gametext{
+        font-size: 31px;
+    }
+    .gamecount{
+        font-size:30px ;
+    }
+    .resetbtn button{
+        font-size: 28px;
+    } 
+
+}
+@media screen and (min-width:721px) and (max-width:1080px)
+{
+    .title h1{
+        font-size: 40px;
+    }
+    .content img{
+        height:175px;
+        width:175px;
+    }
+    .gametext{
+        font-size: 35px;
+    }
+    .gamecount{
+        font-size:34px ;
+    }
+    .resetbtn button{
+        font-size: 31px;
+    } 
+
+}
+
